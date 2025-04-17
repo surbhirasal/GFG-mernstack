@@ -1,0 +1,27 @@
+body{
+    background-color: yellow;
+    background-color: rgb(220, 197, 203);
+    text-align: center;
+    color: rgb(82, 8, 8);
+}
+p{
+    color: blue;
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: 100;
+    text-align: center;
+    background-color: aliceblue;
+    text-decoration: underline;
+}
+
+#a{
+    text-align: right;
+    background-color:burlywood;
+    font-size: 20px;
+}
+
+.z{
+    background-color: lightblue;
+    text-align: left;
+    color: black;
+}

@@ -1,0 +1,16 @@
+*{
+    background-color: lightslategrey;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+#a{
+    margin : 40%;
+    margin-top: 0px;
+    padding: 20px;
+}
+#b{
+    margin-top: 0px;
+    margin: 0%;
+    padding: 20px;
+}

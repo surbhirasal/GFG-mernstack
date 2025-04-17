@@ -1,0 +1,16 @@
+body{
+    background-color: beige;
+}
+
+li{
+    display: inline-block;
+    position: relative;
+}
+.dropdown{
+    position: absolute;
+    display: none;
+}
+.li:hover ul.dropdown{
+    display: block;
+}
+

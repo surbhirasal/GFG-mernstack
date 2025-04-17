@@ -1,0 +1,33 @@
+*{
+    background-color: skyblue;
+    height: 200px;
+}
+.parent{
+    border: 10px solid rgb(116, 4, 4);
+    width : 400px;
+    height: 400px;
+    margin-left: 300px;
+    margin-right: 50px;
+    position: absolute;
+  
+
+}
+.one{
+    height: 100px;
+    background: black;
+    width: 100px;
+    top: 100px;
+    position: sticky;
+    /* left: 50px; */
+    z-index: 3;
+}
+.two{
+    height: 100px;
+    background: yellow;
+    width: 200px;
+    position: absolute;
+    left: 50px; 
+    z-index: 4;
+
+
+}
