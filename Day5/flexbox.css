@@ -1,0 +1,35 @@
+body{
+    background-image: linear-gradient(red,blue,green);
+}
+body{
+    background-color: grey;
+}
+.parent{
+    align-items: flex-end;
+    border: 2px solid black;
+    height: 100vh;
+}
+.one{
+    background: black;
+    height: 100px;
+    width: 100px;
+    flex-grow: 1;
+}
+.two{
+    background: red;
+    height: 100px;
+    width: 100px;
+    flex-grow: 1;
+}
+.three{
+    background: yellow;
+    height: 100px;
+    width: 100px;
+    flex-grow: 1;
+}
+.four{
+    background: green;
+    height: 100px;
+    width: 100px;
+    flex-grow: 1;
+}

@@ -1,0 +1,39 @@
+body{
+    background: blanchedalmond;
+}
+.abc{
+    background: darkred;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    color: azure;
+    transition: 4s;
+    animation-duration: 5s;
+    animation-name: GFG;
+    margin-left: 500px;
+    margin-top: 300px;
+    animation-iteration-count: infinite;
+}
+/* 
+.box:hover{
+    background-color: rgb(2, 67, 16);
+    border-radius: 100px;
+ */
+ @keyframes gfg{
+    0%{
+        transform: scale(1) rotate(0deg);
+        border-radius: 0%;
+
+    }
+    50%{
+        transform: scale(2) rotate(180deg);
+        border-radius: 0%;
+        background: blue;
+
+    }
+    100%{       
+    transform: scale(1) rotate(360deg);
+    border-radius: 20%;
+    background: yellow;
+    }
+ }

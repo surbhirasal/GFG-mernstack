@@ -1,0 +1,22 @@
+body{
+    background: rgb(81, 198, 241);
+    color: rgb(216, 243, 229);
+}
+.main{
+    display: grid;
+    grid-template-columns: repeat(2,lfr);
+    gap: 50px;
+}
+.grid{
+    background: darkblue;
+    padding: 20px;
+    text-align: center;
+    border: 5px solid yellow;
+}
+#two{
+    grid-row: span 5;
+    grid-column: span 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

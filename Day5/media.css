@@ -1,0 +1,38 @@
+body{
+    background-color: aquamarine;
+    color: black;
+}
+.z{
+    display: none;
+}
+
+@media (min-width : 300px) and (max-width: 500px){
+    body{
+        background: rgb(99, 39, 5); 
+    color: aliceblue;  
+#a{
+    display: block;
+} }
+}
+#b{
+    display: none;
+}
+@media (min-width : 401px) and (max-width: 800px){
+    body{
+        background: palevioletred;
+        #b{
+            display: block;
+        }
+    }
+}
+@media (min-width : 401px) and (max-width: 800px){
+    body{
+        background: palevioletred;
+        #c{
+            display: block;
+        }
+    }
+}
+#c{
+    display: block;
+}
